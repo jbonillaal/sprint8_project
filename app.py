@@ -2,6 +2,7 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
+st.header("Analisis de base de datos de vehiculos")
 # Leer los datos del archivo CSV
 car_data = pd.read_csv('vehicles_us.csv')
 
